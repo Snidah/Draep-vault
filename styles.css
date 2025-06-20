@@ -4,7 +4,15 @@ font-family: Arial, sans-serif;
 
 color: #333;
 
-background-color: #f9f9f9;
+background-image: url('Images/showroom.jpeg');
+
+background-size: cover;
+ 
+background-repeat: no-repeat;
+  
+background-attachment: fixed;
+  
+background-position: center;
 
 margin: 0;
 
