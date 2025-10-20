@@ -143,4 +143,14 @@ body.showroom-page {
   background-color: #ffffff; /* white background instead */
 }
 
+/* Text color styling for Draep Vault */
+h1, h2 {
+  color: #D4AF37; /* gold for titles */
+}
+
+p, li, span {
+  color: #FFFFFF; /* white for normal text */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* makes text stand out on dark background */
+}
+
 
