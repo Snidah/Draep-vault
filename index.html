@@ -15,6 +15,24 @@
       letter-spacing: 1px;
       text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     }
+
+    /* 📸 Improved image container size */
+    .showroom-img {
+      max-width: 450px; /* default desktop size */
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    /* 🖥️ Slightly bigger image on large screens */
+    @media (min-width: 992px) {
+      .showroom-img {
+        max-width: 600px;
+      }
+    }
   </style>
 </head>
 
@@ -64,8 +82,9 @@
 
         <p class="mt-4 text-light">🔥 Discover what’s hot right now 🔥</p>
 
+        <!-- 🖼️ Image with improved sizing -->
         <div class="my-4">
-          <img src="images/showroom.jpeg" alt="A cute kitten" class="img-fluid rounded shadow-lg">
+          <img src="images/showroom.jpeg" alt="Showroom" class="showroom-img img-fluid">
         </div>
 
         <!-- 🟡 Visit Showroom Button -->
@@ -88,5 +107,6 @@
 
 </body>
 </html>
+
 
 
