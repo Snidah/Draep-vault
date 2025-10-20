@@ -127,19 +127,19 @@ font-weight: bold;
 /* Default background for all pages */
 body {
   background-image: url("images/background3.jpeg");
-  background-size: cover;        /* Fill the screen while keeping aspect ratio */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;  /* Keeps the background still when scrolling */
+  background-attachment: fixed;
   color: #111;
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Remove background only for showroom */
+/* Showroom page — no background image */
 body.showroom-page {
-  background-image: none;
-  background-color: #fff; /* or whatever you prefer */
+  background: none;
+  background-color: #ffffff; /* white background instead */
 }
 
