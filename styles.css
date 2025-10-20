@@ -176,12 +176,5 @@ body.showroom-page span {
   text-shadow: none;
 }
 
-/* FORCE homepage H2 to gold (strong selector + !important) */
-body:not(.showroom-page) .container.my-5 .col-md-8 > h2.text-light {
-  color: #D4AF37 !important;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.7) !important;
-  background: none !important;
-  -webkit-text-fill-color: unset !important;
-}
 
 
