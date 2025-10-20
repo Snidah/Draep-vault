@@ -126,7 +126,7 @@ font-weight: bold;
 
 /* Default background for all pages */
 body {
-  background-image: url("images/Black_Marble_Background_Resized_1920x1080.jpeg");
+  background-image: url("images/background3.jpeg");
   background-size: cover;        /* Fill the screen while keeping aspect ratio */
   background-repeat: no-repeat;
   background-position: center;
