@@ -127,7 +127,7 @@ font-weight: bold;
 /* ✅ Add background image to all pages */
 body {
   background-image: url('images/background.jpeg'); /* 🔁 replace with your image file or link */
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
