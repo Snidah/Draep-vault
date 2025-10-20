@@ -125,11 +125,16 @@ font-weight: bold;
 }
 
 body {
-  background-image: url('images/background.jpeg'); /* your actual image path */
-  background-repeat: no-repeat; /* show it only once */
-  background-position: center top; /* position in the middle */
-  background-size: auto; /* keep the original size */
-  background-color: #000; /* fallback color */
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-image: url('images/Yves_Saint_Laurent_Storefront_Resized_1920x1080.jpeg');
+  background-size: cover;         /* makes it fill the screen */
+  background-position: center;    /* centers it */
+  background-repeat: no-repeat;   /* avoids tiling */
+  background-attachment: fixed;   /* keeps it still when scrolling */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
 
