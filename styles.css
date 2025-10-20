@@ -175,3 +175,9 @@ body.showroom-page span {
   color: #111; /* dark text for white background */
   text-shadow: none;
 }
+
+/* Make homepage heading gold like About/Contact */
+main h2 {
+  color: #D4AF37; /* gold color */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* for visibility on dark background */
+}
