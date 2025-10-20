@@ -125,13 +125,13 @@ font-weight: bold;
 }
 
 body {
-  background-image: url('images/background.jpeg'); /* or your actual path */
-  background-size: contain;         /* show the whole image */
-  background-repeat: no-repeat;     /* don’t tile it */
-  background-position: center;      /* keep it centered */
-  background-attachment: fixed;     /* stays still when scrolling */
-  background-color: black;          /* optional fill behind */
+  background-image: url('images/background.jpeg'); /* your actual image path */
+  background-repeat: no-repeat; /* show it only once */
+  background-position: center top; /* position in the middle */
+  background-size: auto; /* keep the original size */
+  background-color: #000; /* fallback color */
 }
+
 
 
 /* 🚫 Remove background image on the showroom page */
